@@ -1,0 +1,103 @@
+body {
+  background-color: #dff0f7;
+  font-family: "Comic Sans MS", "Segoe Print", cursive, sans-serif;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0b3d59;
+  color: #ffe066;
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 8px solid #ffe066;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+header p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+nav {
+  background-color: #ffe066;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #0b3d59;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border: 3px dashed #0b3d59;
+  border-radius: 15px;
+}
+
+h2 {
+  color: #0b3d59;
+  border-bottom: 3px solid #ffe066;
+  padding-bottom: 5px;
+}
+
+.curiosidade {
+  background-color: #fff4d6;
+  border-left: 6px solid #ffb703;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+ul {
+  line-height: 1.7em;
+}
+
+.piratas-famosos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.card {
+  background-color: #e8f6ff;
+  border: 2px solid #0b3d59;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #b30000;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #0b3d59;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+.emoji {
+  font-size: 1.5em;
+}
